@@ -3,16 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Carpeta_css/productos.css">
-    <title>Document</title>
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div  class="fondo_contenedor1" >
-        <div class="menu">
-            <a href="INICIO">INICIO</a>
-            <a href="PRODUCTOS">PRODUCTOS</a>
-            <a href="NOSOTROS">NOSOTROS</a>
+    <!-- Cabecera -->
+    <header class="header padding-sm">
+        <div class="container">
+            <h1>Barbershop</h1>
         </div>
-    </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>       
+        <section class="service padding-xl">
+            <div class="container">
+                <h2>Servicios</h2>
+
+                <!-- Caja flexbox -->
+                 <div class="row">
+                    <!-- Columnas -->
+                     <div class="col col-33">
+                        <img src="img/servicio_01.jpg" alt="" class="img-fluid">
+                        <h3>Corte de pelo clásico</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur repudiandae nihil optio. Ipsam accusantium, hic cumque id optio reprehenderit facilis.</p>
+                        <button>Leer más</button>
+                     </div>
+
+                     <div class="col col-33">
+                        <img src="img/servicio_02.jpg" alt="" class="img-fluid">
+                        <h3>Peinado de barba</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet atque repellendus, incidunt placeat dolorum molestiae quidem! Sit dolorem veritatis officia.</p>
+                        <button>Leer más</button>
+                    </div>
+                        
+                     <div class="col col-33">
+                        <img src="img/service_03.jpg" alt="" class="img-fluid">
+                        <h3>Peinado del cabello</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis explicabo, aperiam facere ipsum officiis maiores temporibus quibusdam optio dolor amet.</p>
+                        <button>Leer más</button>
+                     </div>
+                    
+                     <div class="col col-33">
+                        <img src="img/servicio_04.jpg" alt="" class="img-fluid">
+                        <h3>Afeitado para hombres</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ut, nostrum iste perspiciatis corrupti reprehenderit? Mollitia aliquam ad quibusdam quam?</p>
+                        <button>Leer más</button>
+                     </div>
+
+                     <div class="col col-33">
+                        <img src="img/servicio_05.jpg" alt="" class="img-fluid">
+                        <h3>Limpieza de hombres</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugit earum natus quaerat ullam dolores eveniet sint eius voluptatem quo?</p>
+                        <button>Leer más</button>
+                    </div>
+                         
+                     <div class="col col-33">
+                        <img src="img/servicio_06.jpg" alt="" class="img-fluid">
+                        <h3>Corte de pelo para niños</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio possimus animi nesciunt, quos qui recusandae nam iste nobis aut iure.</p>
+                        <button>Leer más</button>
+                     </div>
+                 </div>
+            </div>     
+                
+
+            <div class="container">
+                <h2>Nuestros barberos</h2>
+
+                <h2>Javier Lozano</h2>
+                <h4>barbero profesional</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, enim.</p>
+
+                <h2>George Smith</h2>
+                <h4>barbero profesional</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, officiis.</p>
+
+                <h2>Frank Giordano</h2>
+                <h4>barbero profesional</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, veritatis!</p>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer class="footer padding-sm">
+        <div class="container">
+            <div>&copy;2025 Barbeshop - Todos los derechos reservados</div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,117 @@
+/* Definir variables para los selectores */
+:root {
+    /* Paleta de colores */
+    --color1: #212529;
+    --color2: #FFFFFF;
+    --color3: #454545;
+
+    /* Tipografias */
+    --fuente1: "Roboto", sans-serif;
+
+    /* Tamaños de fuentes */
+    --fs1:16px;
+    --fs2:40px;
+    --fs3:24px;
+    --fs4:20px;
+    --fs5:32px;
+
+    /* Interlineado */
+    --lh1:1.8;
+    --lh2:1.5;
+    --lh3:2;
+
+}
+
+/* Selector universal de elementos HTML */
+* {
+    /* Eliminan los aspectos predeterminados */
+    margin: 0;
+    padding: 0;
+
+    /* Evitan que cambie el tamaño de las cajas */
+    box-sizing: border-box;
+}
+
+/* Selectores de tipo etiqueta HTML */
+body {
+    font-family: var(--fuente1);
+    line-height: var(--lh1);
+    font-size: var(--fs1);
+
+}
+
+h1 {
+    font-size: var(--fs2);
+}
+
+h2 {
+    font-size: var(--fs5);
+}
+
+h3 {
+    font-size: var(--fs4);
+}
+
+
+/* Selectores de estilos de tipo class */
+.container {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.service {
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+.footer {
+    background-color:var(--color1);
+    color: var(--color2);
+}
+
+.padding-sm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-xl {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.img-fluid {
+    /* Ajustar el ancho de la imagen al tamaño (ancho) de su caja padre */
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    /* Activar el flexbox */
+    flex-direction: row; /* Alinear las cajas hijo en fila (horizontalmente) */
+    display: flex;
+    flex-wrap: wrap; /* Permite flexbox multifila */
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col {
+    /* Establecer columna del mismo ancho de manera automatica */
+    flex-basis: 0;
+    flex-grow: 1;
+
+    /* Agregar espacio entre columnas */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-33 {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
