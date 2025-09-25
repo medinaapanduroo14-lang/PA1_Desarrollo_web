@@ -115,3 +115,27 @@ h3 {
     flex-basis: 33.33%;
     max-width: 33.33%;
 }
+
+.container1 {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen-1 {
+    margin-right: 15px;
+    max-width: 90%;
+    width: 100%;
+}
+
+.imagen-2 {
+    margin-right: 15px;
+    max-width: 90%;
+    width: 100%;
+}
+
+.imagen-3 {
+    margin-right: 15px;
+    max-width: 90%;
+    width: 100%;
+}
