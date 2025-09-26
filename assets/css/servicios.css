@@ -201,3 +201,18 @@ h3 {
 .barberos1 {
     color: var(--color2);
 }
+.contenedor {
+  display: flex;              
+  align-items: center;        
+  justify-content: space-between; 
+  gap: 20px;                  
+}
+
+.columna {
+  flex: 1;                   
+}
+
+.imagen {
+  max-width: 100%;            
+  height: auto;               
+}
