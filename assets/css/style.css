@@ -46,3 +46,26 @@ body{
   max-width: 100%;            
   height: auto;               
 }
+
+/* Selectores de tipo ID */
+#top-bar {
+    background-color: var(--color2);
+    color:var(--color4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.row-justifycontent {
+    justify-content: space-between;
+}
+
+.row-topbar-link {
+    color: var(--color4);
+    text-decoration: none; /*Quitar el subrayado*/
+    margin-right: 10px; 
+}
+
+.row-topbar-icons {
+    font-size: 1.3em;   
+}
