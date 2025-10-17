@@ -251,6 +251,7 @@ h3 {
 .videos1 {
     display: flex;
     background-color: #D9D9D9;
+}    
 
 .contenedor-video { 
     margin: 5%;    
@@ -297,3 +298,4 @@ h3 {
 .scroll-up:hover {
     transform: translateY(-10px);
 }
+    
