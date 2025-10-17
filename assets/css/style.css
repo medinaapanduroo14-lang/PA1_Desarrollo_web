@@ -74,3 +74,11 @@ body{
 .row-topbar-icons {
     font-size: 1.3em;   
 }
+
+.promocion {
+    background:  url(../img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+
+}
