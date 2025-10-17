@@ -239,6 +239,8 @@ h3 {
     font-size: 1.3em;   
 }
 
-.contenedor-video {
-    padding-top: 56.25%;
+.contenedor-video { 
+    margin: 5%;
+    margin-left: 10%;
+    background-color:;
 }
