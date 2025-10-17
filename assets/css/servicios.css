@@ -50,6 +50,11 @@
 }
 
 /* Selectores de tipo etiqueta HTML */
+html {
+    /* Suaviza el desplazamieento del scroll en la ventana del navegador */
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--fuente1);
     line-height: var(--lh1);
@@ -82,6 +87,10 @@ h3 {
 .header {
     background-color: var(--color1);
     color: var(--color2);
+
+    position: sticky; /* Pegar la cabecera en la parte superior de la ventana del navegador*/
+    top: 0px; /*Parte superior de la ventana */
+    z-index: 100; 
 }
 
 .service {
@@ -241,4 +250,40 @@ h3 {
 
 .contenedor-video {
     padding-top: 56.25%;
+}
+
+.img-service:hover img {
+    transform: scale(1.1);
+}
+
+.img-service {
+    overflow: hidden;
+}
+
+.img-service img {
+    transition: all 0.4s ease-in-out;
+}
+
+.scroll-up {
+    /* formato y tamaño */
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid var(--color4);
+    background-color: #FF8C00;
+    color: #121212;
+
+    /* posicion del icono */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 15px 20px 0 rgba(32, 54, 70, 0.4);
+    border-radius: 200px 200px 200px 200px;
+}
+
+.scroll-up:hover {
+    transform: translateY(-10px);
 }
