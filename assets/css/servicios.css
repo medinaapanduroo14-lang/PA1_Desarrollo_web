@@ -248,8 +248,18 @@ h3 {
     font-size: 1.3em;   
 }
 
-.contenedor-video {
-    padding-top: 56.25%;
+.videos1 {
+    display: flex;
+    background-color: rgb(172, 211, 226);
+}
+
+.contenedor-video { 
+    margin: 5%;    
+}
+
+.textovideo {
+    margin: 8%;
+    color: black;
 }
 
 .img-service:hover img {
