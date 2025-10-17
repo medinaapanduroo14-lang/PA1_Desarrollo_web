@@ -18,7 +18,12 @@ body{
     margin-right: 20px;
            
 }
+.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
 
+}
 .menu a:hover{
     transition: color 1s ease ;  
     color: darkgoldenrod;
