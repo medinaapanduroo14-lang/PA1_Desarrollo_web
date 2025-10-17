@@ -239,8 +239,16 @@ h3 {
     font-size: 1.3em;   
 }
 
+.videos1 {
+    display: flex;
+    background-color: rgb(172, 211, 226);
+}
+
 .contenedor-video { 
-    margin: 5%;
-    margin-left: 10%;
-    background-color:;
+    margin: 5%;    
+}
+
+.textovideo {
+    margin: 8%;
+    color: black;
 }
