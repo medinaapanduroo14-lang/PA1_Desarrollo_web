@@ -260,10 +260,13 @@ h3 {
 .textovideo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 8%;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2a4ba7d7ae374a9a94a07aba90b872ffc099036b
+=======
+>>>>>>> Stashed changes
     color: black;
 }
 
@@ -301,6 +304,7 @@ h3 {
 
 .scroll-up:hover {
     transform: translateY(-10px);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
     color: rgb(104, 77, 0);
@@ -310,3 +314,6 @@ h3 {
 }
     
 >>>>>>> 2a4ba7d7ae374a9a94a07aba90b872ffc099036b
+=======
+}
+>>>>>>> Stashed changes
