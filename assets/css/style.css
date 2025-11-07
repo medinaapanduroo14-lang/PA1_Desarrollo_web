@@ -362,3 +362,152 @@ h3 {
   background-position: center;
   height: 100vh;
 }
+
+/* --- Página de Contacto --- */
+.contacto {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 60px 10%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.info-contacto {
+  flex: 1;
+  min-width: 280px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-bg {
+  background: rgba(0,0,0,0.7);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.info-bg h3 {
+  color: #ffb400;
+  margin-top: 15px;
+}
+
+.info-bg p {
+  margin: 5px 0 15px;
+}
+
+.formulario {
+  flex: 2;
+  padding: 40px;
+}
+
+.formulario h2 {
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.formulario p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.datos {
+  display: flex;
+  gap: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+.suma-captcha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.condiciones {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.btn-enviar {
+  background: #ffb400;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+  background: #e0a100;
+}
+
+/* Mapa y horarios */
+.mapa-horarios {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  background: #f8f8f8;
+}
+
+.mapa {
+  flex: 2;
+  min-width: 300px;
+}
+
+.horarios {
+  flex: 1;
+  padding: 40px;
+  text-align: left;
+}
+
+.horarios h2 {
+  margin-bottom: 50px;
+  color: #111;
+}
+
+.horarios ul {
+  list-style: none;
+  padding: 0;
+}
+
+.horarios li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+footer {
+  background: #111;
+  color: #ddd;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
