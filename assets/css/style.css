@@ -539,3 +539,20 @@ footer {
   padding: 15px;
   margin-top: 30px;
 }
+
+.img-service {
+    overflow: hidden;
+    display: flex;
+    align-items: center;        /* Centra verticalmente */
+    justify-content: center;    /* Centra horizontalmente */
+    gap: 2rem;                  /* Espacio entre imagen y texto */
+    padding: 2rem;
+    flex-wrap: wrap;            /* Para que se adapte en pantallas pequeñas */
+    background-color: rgb(228, 187, 110);   /* Fondo naranja */
+    padding: 10px;              /* Espacio entre imagen y borde */
+    border-radius: 8px;         /* Bordes redondeados */
+    max-width: 100%;
+    max-height: 450px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
