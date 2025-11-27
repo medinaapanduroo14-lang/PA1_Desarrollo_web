@@ -16,36 +16,23 @@
 <body>
     <header id="top-bar">
     <!--PA4-->
+    <!-- ======= NAVBAR ======= -->
 <header class="header">
+    <div class="logo">Mi Sitio</div>
 
-  <!-- Contenedor principal del menú -->
-  <nav class="navbar">
+    <!-- Botón hamburguesa -->
+    <button class="hamburger" id="hamburger-btn">
+        ☰
+    </button>
 
-    <!-- Logo -->
-    <div class="logo">Bienvenido</div>
-
-    <!-- Checkbox oculto para activar el menú (no usa JavaScript) -->
-    <input type="checkbox" id="menu-toggle" class="menu-toggle">
-
-    <!-- Botón hamburguesa (se activa con el checkbox) -->
-    <label for="menu-toggle" class="hamburger">
-      <!-- Tres líneas del ícono -->
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-
-    <!-- Opciones del menú -->
-    <ul class="menu">
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Servicios</a></li>
-      <li><a href="#">Nosotros</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-
-  </nav>
-
+    <!-- Navegación -->
+    <nav class="nav" id="nav-menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Servicios</a>
+        <a href="#servicios">Contacto</a>
+    </nav>
 </header>
+
 <!--PA4-->
 
         <div class="container">
@@ -139,5 +126,8 @@
     <a href="#" class="scroll-up">
         <i class="fa-solid fa-angle-up"></i>
     </a>
+
+    <!-- Enlazar el HTML con la libreria de JavaScript -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

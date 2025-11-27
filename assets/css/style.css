@@ -565,122 +565,99 @@ footer {
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-<<<<<<< HEAD
 /*PA4*/
 
+
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f3f3f3;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Barra de navegación */
 .header {
-  background: #222;
-  color: white;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 25px;
-  position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #333;
+    color: #fff;
 }
 
 .logo {
-  font-size: 22px;
-  font-weight: bold;
+    font-size: 1.5rem;
 }
 
-/*       MENÚ ESTILO ESCRITORIO            */
-
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 25px;
+.nav {
+    display: flex;
+    gap: 20px;
 }
 
-.menu li a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  transition: 0.3s;
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
 }
-
-.menu li a:hover {
-  color: #00b7ff;
-}
-
-/*    BOTÓN HAMBURGUESA (OCULTO EN PC)     */
 
 .hamburger {
-  display: none; /* Solo aparece en móvil */
-  cursor: pointer;
-  flex-direction: column;
-  gap: 6px;
+    display: none; /* Se muestra solo en móvil */
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
 }
 
-.hamburger span {
-  display: block;
-  width: 28px;
-  height: 3px;
-  background: white;
-  border-radius: 2px;
-  transition: 0.3s;
+
+/* 📱 MÓVIL – hasta 576px */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+        padding: 0 10px;
+    }
 }
 
-/* Checkbox oculto para activar menú */
-.menu-toggle {
-  display: none;
-}
-
-/*          RESPONSIVE ≤ 768px             */
-
+/* 📱 TABLETA – hasta 768px */
 @media (max-width: 768px) {
 
-  /* Mostrar botón hamburguesa */
-  .hamburger {
-    display: flex;
-  }
+    /* Mostrar el menú hamburguesa */
+    .hamburger {
+        display: block;
+    }
 
-  /* Menú pasa a vertical */
-  .menu {
-    flex-direction: column;
-    position: absolute;
-    top: 65px;
-    right: 0;
-    background: #333;
-    width: 220px;
-    padding: 20px;
-    gap: 18px;
-    
-    /* Escondido por defecto */
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.4s ease;
-    border-radius: 0 0 0 12px;
-  }
+    /* Ocultar menú inicialmente */
+    .nav {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        width: 100%;
+        padding: 15px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
 
-  /* Menú visible cuando checkbox está activado */
-  .menu-toggle:checked ~ .menu {
-    max-height: 300px;
-    opacity: 1;
-  }
+    /* Cuando el menú está activo */
+    .nav.show {
+        display: flex;
+    }
 
-  /* Animación del ícono hamburguesa */
-  .menu-toggle:checked + .hamburger span:nth-child(1) {
-    transform: rotate(45deg) translateY(8px);
-  }
-
-  .menu-toggle:checked + .hamburger span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .menu-toggle:checked + .hamburger span:nth-child(3) {
-    transform: rotate(-45deg) translateY(-8px);
-  }
+    .nav a {
+        padding: 10px 0;
+        border-bottom: 1px solid #555;
+        font-size: 1.1rem;
+    }
 }
-=======
->>>>>>> 6b09fa2cd7690adfa99b09dba6df52ca8ad23688
+
+/* 💻 PANTALLA MEDIANA – hasta 992px */
+@media (max-width: 992px) {
+    body {
+        padding: 0 20px;
+    }
+}
+
+/* 🖥 PANTALLA GRANDE – hasta 1200px */
+@media (max-width: 1200px) {
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
