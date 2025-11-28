@@ -797,3 +797,37 @@ h2 {
         grid-template-columns: 1fr;
     }
 }
+
+.boton {
+    background-color: #e67e22;
+    color: white;
+    width: 900px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0;
+    border-radius: 0;
+}
+
+.boton:last-child {
+    border-right: none;
+}
+
+.boton:hover {
+    background-color: #d35400;
+    transform: translateY(-3px);
+}
+
+.boton i {
+    transition: transform 0.3s ease;
+}
+
+.boton:hover i {
+    transform: scale(1.2);
+}
+
