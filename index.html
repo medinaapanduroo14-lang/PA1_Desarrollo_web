@@ -4,132 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbershop</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
 
-    <!-- Enlazar el HTML con la libreria de iconos de font-awesone 6.7.2 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" />
 </head>
+
 <body>
-    <header id="top-bar">
-    <!--PA4-->
-    <!-- ======= NAVBAR ======= -->
-<header class="header">
-    <div class="logo">Mi Sitio</div>
 
-    <!-- Botón hamburguesa -->
-    <button class="hamburger" id="hamburger-btn">
-        ☰
-    </button>
-
-    <!-- Navegación -->
-    <nav class="nav" id="nav-menu">
-        <a href="#inicio">Inicio</a>
-        <a href="#nosotros">Servicios</a>
-        <a href="#servicios">Contacto</a>
-    </nav>
-</header>
-
-<!--PA4-->
-
+    <!-- ===================== TOP BAR ===================== -->
+    <header id="top-bar" class="padding-sm">
         <div class="container">
-            <div class="row row-justifycontent" >
-                <!-- Para los elementos de contacto -->
-                 <div>
-                    <a class="row-topbar-link" href="tel:5114724533" target="_blank">
-                        <i class="fa-solid fa-phone"></i>(01) 4724533
-                    </a>
-                    <a class="row-topbar-link" href="mailto:contacto@barbon.pe" target="_blank">
-                        <i class="fa-solid fa-envelope"></i>contacto@barbon.pe
-                    </a>
-                 </div>
+            <div class="row row-justifycontent">
 
-                 <!-- Para los elementos de las redes sociales -->
-                  <div>
-                    <a class="row-topbar-link" href="https://www.facebook.com/" target="_blank" title="siguenos en Faceboock">
+                <!-- Contacto -->
+                <div>
+                    <a class="row-topbar-link" href="tel:5114724533">
+                        <i class="fa-solid fa-phone"></i> (01) 4724533
+                    </a>
+
+                    <a class="row-topbar-link" href="mailto:contacto@barbon.pe">
+                        <i class="fa-solid fa-envelope"></i> contacto@barbon.pe
+                    </a>
+                </div>
+
+                <!-- Redes sociales -->
+                <div>
+                    <a class="row-topbar-link" href="https://www.facebook.com/" target="_blank">
                         <i class="fa-brands fa-facebook row-topbar-icons"></i>
                     </a>
-                    <a class="row-topbar-link" href="https://www.youtube.com/" target="_blank" title="siguenos en Youtube">
+
+                    <a class="row-topbar-link" href="https://www.youtube.com/" target="_blank">
                         <i class="fa-brands fa-youtube row-topbar-icons"></i>
                     </a>
-                    <a class="row-topbar-link" href="https://www.instagram.com/" target="_blank" title="siguenos en Instagram">
+
+                    <a class="row-topbar-link" href="https://www.instagram.com/" target="_blank">
                         <i class="fa-brands fa-instagram row-topbar-icons"></i>
                     </a>
                 </div>
 
-                  </div>
             </div>
         </div>
     </header>
 
-    <!-- Cabecera -->
+    <!-- ===================== NAVBAR PRINCIPAL ===================== -->
     <header class="header padding-sm">
         <div class="container">
-            <!-- Barra de navegacion -->
-             <div class="nav-bar">
-                <!-- Logo -->
-                 <div class="nav-logo ">
-                    <img  src="assets/img/logo_1.svg" class="img-fluid" alt="">                   
-                 </div>
 
-                <!-- Barra de menu -->
-                <div class="menu">
+            <div class="nav-bar">
+
+                <!-- LOGO -->
+                <div class="nav-logo">
+                    <img src="assets/img/logo_1.svg" class="img-fluid" alt="Logo Barbon">
+                </div>
+
+                <!-- MENU -->
+                <nav class="menu">
                     <a href="/index.html">INICIO</a>
                     <a href="/nosotros.html">NOSOTROS</a>
                     <a href="/servicios.html">SERVICIOS</a>
                     <a href="/contacto.html">CONTACTO</a>
                     <a href="/soporte.html">SOPORTE</a>
-                </div>
-            </div>    
+                </nav>
+
+            </div>
+
         </div>
     </header>
-    <div>
-        <div class="contenedort2">
-            <img class="img-fluid" src="/assets/img/banner1.jpg" alt="Fondo">
-            <video  class="img-fluid" autoplay muted loop>
-            <source  src="/assets/videos/ssvid.app--Fire-Barber-Shop-Promo-ATLMDERON_v720P.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
 
-    </div>
-    <center><h1>SOBRE NOSOTROS</h1></center>
-    <div class="contenedor">
-        <div class="columna">
-            <div class="img-service">
-                <img src="assets/img/nosotros.jpg" alt="">
+    <!-- ===================== HERO (VIDEO + TEXTO) ===================== -->
+    <section>
+
+        <video class="img-fluid video-fondo" autoplay muted loop>
+            <source src="/assets/videos/ssvid.app--Fire-Barber-Shop-Promo-ATLMDERON_v720P.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section class="contenedort2">
+
+        <img class="img-fluid" src="/assets/img/banner1.jpg" alt="Fondo">
+
+        <div class="texto-superpuesto">
+            <h1>BARBÓN y CORTES</h1>
+            <p>Estilo , personalidad y lujo</p>
+        </div>
+
+    </section>
+
+    <!-- ===================== SECCIÓN NOSOTROS ===================== -->
+    <section class="padding-sm">
+        <center><h1>SOBRE NOSOTROS</h1></center>
+
+        <div class="contenedor">
+
+            <div class="columna">
+                <div class="img-service">
+                    <img src="assets/img/nosotros.jpg" class="img-fluid" alt="Nosotros">
+                </div>
             </div>
+
+            <div class="columna">
+                <h2><b>DESDE 1980</b></h2>
+                <p>
+                    Aut eum neque ipsam sit ad. Voluptatem oficia dolor maiores soluta delectus ab vitae.
+                    <br><br>
+                    ✔ Deserunt porro ut eaque omnis aut ea. <br><br>
+                    ✔ Aliquam id itaque repudiandae doloribus sint. <br><br>
+                    ✔ Quibusdam eaque et non veniam.
+                </p>
+            </div>
+
         </div>
-        <div class="columna">
-            <h2><b>DESDE 1980</b></h2>
-            <p>Aut eum neque ipsam sit ad. Voluptatem oficia dolor maiores soluta delectus ab vitae <br>
-            quos hic. Deserunt porro ut eaque omnis aut ea. Voluptas dolor laborum odit quia ex <br>
-            numquam nisi est. Sapiente quia enim et rem. A consectetur possimus laudantium <br>
-            corrupti. Optio non consectetur cupiditate pariatur totam voluptas nisi. Ipsum ab pariatur. <br>
-            Aliquam id itaque repudiandae doloribus sint ut arquitecto nihil sequi. Eum possimus <br>
-            maiores autem quas. Dolor ut minus eius nulla commodi dolores consequatur. <br>
-            Quibusdam eaque et non veniam quisquam molestiae aliquid in laboriosam. <br> <br>
-            ✔ Deserunt porro ut eaque omnis aut ea oluptas dolor laborum odit quia ex numquam <br><br>
-            ✔ Aliquam id itaque repudiandae doloribus sint ut arquitecto nihil sequi eum. <br><br>
-            ✔ Quibusdam eaque et non veniam quisquam molestiae aliquid in laboriosam.</p>
-        </div>
-    </div>
-    <!--Pie de pagina-->
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
     <footer class="footer padding-sm">
         <div class="container">
-            <div>&copy; 2025 <img src="assets/img/logo_1.svg" width="60" alt=""> - Todos los derechos reservados</div>
+            <div>&copy; 2025 
+                <img src="assets/img/logo_1.svg" width="60" alt="">
+                - Todos los derechos reservados
+            </div>
         </div>
     </footer>
 
-    <!-- Boton para hacer scroll rapido al inicio de la pagina -->
+    <!-- Botón scroll arriba -->
     <a href="#" class="scroll-up">
         <i class="fa-solid fa-angle-up"></i>
     </a>
 
-    <!-- Enlazar el HTML con la libreria de JavaScript -->
+    <!-- JS -->
     <script src="assets/js/main.js"></script>
+
 </body>
 </html>
